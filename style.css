@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?6y98r1');
-  src:  url('fonts/icomoon.eot?6y98r1#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?6y98r1') format('truetype'),
-    url('fonts/icomoon.woff?6y98r1') format('woff'),
-    url('fonts/icomoon.svg?6y98r1#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?bi9ank');
+  src:  url('fonts/icomoon.eot?bi9ank#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bi9ank') format('truetype'),
+    url('fonts/icomoon.woff?bi9ank') format('woff'),
+    url('fonts/icomoon.svg?bi9ank#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.alt-chevron-left:before {
+  content: "\e900";
+}
+.alt-chevron-right:before {
+  content: "\e901";
+}
 .alt-cat:before {
   content: "\e902";
 }
@@ -133,10 +139,10 @@
   color: rgb(255, 255, 255);
 }
 .alt-cross:before {
-  content: "\e901";
+  content: "\e91c";
   color: #70df7c;
 }
 .alt-user:before {
-  content: "\e900";
+  content: "\e91d";
   color: #70df7c;
 }
