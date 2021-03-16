@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bi9ank');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bi9ank#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?bi9ank') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?bi9ank') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?bi9ank##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?616y2m');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?616y2m#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?616y2m') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?616y2m') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?616y2m##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,14 +27,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.alt-chevron-left {
+.alt-chat {
   &:before {
-    content: $alt-chevron-left; 
-  }
-}
-.alt-chevron-right {
-  &:before {
-    content: $alt-chevron-right; 
+    content: $alt-chat;     
+    color: #70df7c;
   }
 }
 .alt-cat {
@@ -206,6 +202,16 @@
   &:before {
     content: $alt-user;     
     color: #70df7c;
+  }
+}
+.alt-chevron-left {
+  &:before {
+    content: $alt-chevron-left; 
+  }
+}
+.alt-chevron-right {
+  &:before {
+    content: $alt-chevron-right; 
   }
 }
 
