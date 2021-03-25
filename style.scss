@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?yfl4ij');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?yfl4ij#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?yfl4ij') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?yfl4ij') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?yfl4ij##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?cb8m2u');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?cb8m2u#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?cb8m2u') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?cb8m2u') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?cb8m2u##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,9 +27,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.alt-moon {
+.alt-cinema {
   &:before {
-    content: $alt-moon; 
+    content: $alt-cinema; 
   }
 }
 .alt-sun {
@@ -212,6 +212,11 @@
   &:before {
     content: $alt-user;     
     color: #70df7c;
+  }
+}
+.alt-moon {
+  &:before {
+    content: $alt-moon; 
   }
 }
 .alt-chevron-left {
